@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const ProductHeader = () => {
@@ -34,12 +35,12 @@ const ProductHeader = () => {
       </div>
       <section className="bg-[#6554df] text-white">
         <ul className="grid md:grid-cols-6 gap-14 items-center py-5 max-w-5xl mx-auto">
-            <li>Marketing Tools</li>
-            <li>Fraud Prevention</li>
-            <li>Automatization</li>
-            <li>Lead Generation</li>
-            <li>Payouts</li>
-            <li>Support</li>
+            <Link href={'/products/marketing-tools'}><li>Marketing Tools</li></Link>
+            <Link href={'/products/fraud-prevention'}><li>Fraud Prevention</li></Link>
+            <Link href={'/products/automatization'}><li>Automatization</li></Link>
+            <Link href={'/products/lead-generation'}><li>Lead Generation</li></Link>
+            <Link href={'/products/payouts'}><li>Payouts</li></Link>
+            <Link href={'/products/support'}><li>Support</li></Link>
         </ul>
       </section>
     </div>

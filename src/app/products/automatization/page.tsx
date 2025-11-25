@@ -10,8 +10,8 @@ const Automatization = () => {
             <section className="max-w-7xl mx-auto px-6 py-16">
 
                 <div className="text-center mb-10">
-                    <h1 className="text-sm font-semibold tracking-wide text-gray-500">
-                        Automatization
+                    <h1 className="text-sm font-semibold tracking-wide text-blue-600">
+                        AUTOMATIZATION
                     </h1>
 
                     <p className="font-bold text-3xl md:text-4xl text-gray-900 mt-2">
